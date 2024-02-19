@@ -15,5 +15,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func colorButton(_ sender: UIButton) {
+        print(String(sender.tag))
+        let detailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController;
+        
+        detailVC.data = String(sender.tag);
+        
+        self.navigationController?.pushViewController(detailVC, animated: true);
+    }
 }
 

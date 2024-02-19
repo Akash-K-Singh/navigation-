@@ -16,6 +16,7 @@
 		74367E382B83471200EC2F9B /* nav_colTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74367E372B83471200EC2F9B /* nav_colTests.swift */; };
 		74367E422B83471200EC2F9B /* nav_colUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74367E412B83471200EC2F9B /* nav_colUITests.swift */; };
 		74367E442B83471200EC2F9B /* nav_colUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74367E432B83471200EC2F9B /* nav_colUITestsLaunchTests.swift */; };
+		74367E532B83494700EC2F9B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74367E522B83494700EC2F9B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		74367E3D2B83471200EC2F9B /* nav colUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nav colUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74367E412B83471200EC2F9B /* nav_colUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nav_colUITests.swift; sourceTree = "<group>"; };
 		74367E432B83471200EC2F9B /* nav_colUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nav_colUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74367E522B83494700EC2F9B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				74367E222B83471000EC2F9B /* SceneDelegate.swift */,
 				74367E242B83471000EC2F9B /* ViewController.swift */,
 				74367E262B83471000EC2F9B /* Main.storyboard */,
+				74367E522B83494700EC2F9B /* DetailViewController.swift */,
 				74367E292B83471200EC2F9B /* Assets.xcassets */,
 				74367E2B2B83471200EC2F9B /* LaunchScreen.storyboard */,
 				74367E2E2B83471200EC2F9B /* Info.plist */,
@@ -261,6 +264,7 @@
 				74367E252B83471000EC2F9B /* ViewController.swift in Sources */,
 				74367E212B83471000EC2F9B /* AppDelegate.swift in Sources */,
 				74367E232B83471000EC2F9B /* SceneDelegate.swift in Sources */,
+				74367E532B83494700EC2F9B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
